@@ -1,0 +1,36 @@
+# Intellij
+.idea/
+*.iws
+*.ipr
+*.iml
+
+# Gradle
+.gradle/
+gradle/
+
+# Vim
+*.swp
+
+# Build
+build/
+*/build
+*/*/target/
+*/*/build.properties
+*/target
+*/out/
+docker/*/*.jar
+
+# Logs
+*/application.log.*
+*/application.log
+derby.log
+#project/
+target/
+
+# Misc
+.DS_Store
+
+# Derby
+metastore_db/
+
+*.log
